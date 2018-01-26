@@ -16,7 +16,7 @@ var $$$ = new (function() {
 		t=i?"<em>"+t+"</em>":t;
 		t=b?"<strong>"+t+"</strong>":t;
 		t=u?"<u>"+t+"</u>":t;
-		d_s.innerHTML += nL?"\n"+t:t;
+		d_s.innerHTML += nL?"<br />"+t:t;
 	}
 	this.cleanse = function(t) {
 		var n = document.createElement("p");
