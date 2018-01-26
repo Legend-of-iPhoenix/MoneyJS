@@ -6,6 +6,7 @@ var $$$ = new (function() {
 		return Object.keys(j).find(key => j[key] === v);
 	}
 	this.append = function(d_s,t,flags){
+		flags = flags ? flags : {};
 		var nL=flags.newline||flags.n;
 		var m=flags.mono||flags.m;
 		var i=flags.italic||flags.i;
