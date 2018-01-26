@@ -1,6 +1,6 @@
 var $$$ = new (function() {
 	this.get = function(s) {
-		return document.querySelectorAll(s);
+		return 1==document.querySelectorAll(s).length?document.querySelector(s):document.querySelectorAll(s);
 	}
 	this.keyWithValue = function(j, v) {
 		return Object.keys(j).find(key => j[key] === v);
