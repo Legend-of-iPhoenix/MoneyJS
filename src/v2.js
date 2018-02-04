@@ -1,4 +1,5 @@
 function $$$(currency, balance, allowDebt) {
+	currenct = currency || "USD";
   this._system = undefined;
   this.balance = balance || 0;
   this._allowDebt = allowDebt === true;
